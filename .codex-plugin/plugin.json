@@ -1,42 +1,32 @@
 ﻿{
-    "name":  "orauria-canvas",
-    "version":  "0.1.1",
-    "description":  "DÃ¹ng Codex Ä‘á»ƒ Ä‘á»c vÃ  thao tÃ¡c Orauria Canvas qua local Canvas Agent MCP.",
-    "author":  {
-                   "name":  "Orauria",
-                   "url":  "https://canvas.orauria.com"
-               },
-    "homepage":  "https://canvas.orauria.com",
-    "repository":  "https://github.com/VuHoang1802/Orauria-Canvas-Codex-Plugin",
-    "license":  "MIT",
-    "keywords":  [
-                     "orauria",
-                     "orauria-canvas",
-                     "canvas",
-                     "mcp",
-                     "agent"
-                 ],
-    "skills":  "./skills/",
-    "mcpServers":  "./.mcp.json",
-    "interface":  {
-                      "displayName":  "Orauria Canvas",
-                      "shortDescription":  "DÃ¹ng Codex Ä‘á»ƒ thao tÃ¡c báº£ng Orauria Canvas hiá»‡n táº¡i.",
-                      "longDescription":  "Káº¿t ná»‘i Codex vá»›i local Canvas Agent MCP Ä‘á»ƒ Codex cÃ³ thá»ƒ Ä‘á»c canvas, táº¡o node, ná»‘i luá»“ng vÃ  kÃ­ch hoáº¡t generate; thao tÃ¡c ghi canvas váº«n do sidebar web xÃ¡c nháº­n láº¡i.",
-                      "developerName":  "Orauria",
-                      "category":  "Productivity",
-                      "capabilities":  [
-                                           "Canvas",
-                                           "MCP",
-                                           "Creative Workflow"
-                                       ],
-                      "websiteURL":  "https://canvas.orauria.com",
-                      "defaultPrompt":  [
-                                            "Má»Ÿ Orauria Canvas",
-                                            "Äá»c canvas hiá»‡n táº¡i vÃ  tÃ³m táº¯t cáº¥u trÃºc node",
-                                            "Theo node Ä‘ang chá»n, táº¡o má»™t bá»™ prompt sinh áº£nh"
-                                        ],
-                      "brandColor":  "#2D3047",
-                      "composerIcon":  "./assets/icon.png",
-                      "logo":  "./assets/icon.png"
-                  }
+  "name": "orauria-canvas",
+  "version": "0.1.1",
+  "description": "Dùng Codex để đọc và thao tác Orauria Canvas qua local Canvas Agent MCP.",
+  "author": {
+    "name": "Orauria",
+    "url": "https://canvas.orauria.com"
+  },
+  "homepage": "https://canvas.orauria.com",
+  "repository": "https://github.com/VuHoang1802/Orauria-Canvas-Codex-Plugin",
+  "license": "MIT",
+  "keywords": ["orauria", "orauria-canvas", "canvas", "mcp", "agent"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Orauria Canvas",
+    "shortDescription": "Dùng Codex để thao tác bảng Orauria Canvas hiện tại.",
+    "longDescription": "Kết nối Codex với local Canvas Agent MCP để Codex có thể đọc canvas, tạo node, nối luồng và kích hoạt generate; thao tác ghi canvas vẫn do sidebar web xác nhận lại.",
+    "developerName": "Orauria",
+    "category": "Productivity",
+    "capabilities": ["Canvas", "MCP", "Creative Workflow"],
+    "websiteURL": "https://canvas.orauria.com",
+    "defaultPrompt": [
+      "Mở Orauria Canvas",
+      "Đọc canvas hiện tại và tóm tắt cấu trúc node",
+      "Theo node đang chọn, tạo một bộ prompt sinh ảnh"
+    ],
+    "brandColor": "#2D3047",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
 }
