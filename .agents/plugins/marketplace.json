@@ -1,0 +1,20 @@
+{
+  "name": "orauria-canvas",
+  "interface": {
+    "displayName": "Orauria Canvas"
+  },
+  "plugins": [
+    {
+      "name": "orauria-canvas",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
